@@ -1,0 +1,96 @@
+body{
+    background-color: darkturquoise;
+}
+
+h1{
+    text-align: center;
+    color: ivory;
+    margin-top: 100px;
+    
+}
+
+.screen{
+    background-color: rgb(235, 17, 17);
+    border: solid black 2px;
+    color: cornsilk;
+    font-size: 3rem;
+    width: 95%;
+    cursor: pointer;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+input[type='button']:hover{
+    background-color: crimson;
+}
+
+input[type='buttion']:active{
+    background-color: #ee1010;
+} 
+
+.operator{
+    background-color: rgb(139, 22, 218);
+    color: rgb(12, 218, 98);
+    border: solid black 2px;
+    padding:5px ;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    
+}  
+
+.number{
+    background-color: rgb(139, 22, 218);
+    color: rgb(12, 218, 98);
+    border: solid black 2px;
+    padding:5px ;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    
+
+}
+
+.decimal{
+    background-color: rgb(139, 22, 218);
+    color: rgb(12, 218, 98);
+    border: solid black 2px;
+    padding:5px ;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    
+}
+
+.clear{
+    background-color: rgb(247, 47, 187);
+    color: rgb(11, 12, 11);
+    border: solid black 2px;
+    padding:5px ;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    
+}
+
+.equal{
+    background-color: #da169f;
+    color: #09180f;
+    border: solid black 2px;
+    padding:5px ;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    
+}
+
+.container{
+    background-color: blanchedalmond;
+    color: rgb(11, 12, 11);
+    border: solid black 2px;
+    padding:15px ;
+    width: 40%;
+    margin: 100px; auto;
+    text-align: center;
+}
