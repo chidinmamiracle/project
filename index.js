@@ -1,22 +1,22 @@
 function operator(val) {
-  alert(params);
+  alert(val);
   document.getElementById('result').value += val;
 }
 
-function clear() {
+function clearScreen() {
   alert('i clicked clear');
   document.getElementById('result').value = '';
 }
 
 function number(val) {
-  alert(params);
+  alert(val);
   document.getElementById('result').value += val;
 }
 
 function equal() {
   alert('i clicked equal');
   let x = document.getElementById('result').value;
-  let y = eval[x];
+  let y = eval(x);
   document.getElementById('result').value = y;
 }
 
