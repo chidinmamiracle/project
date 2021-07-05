@@ -93,5 +93,5 @@ input[type='buttion']:active{
     width: 40%;
     margin: 100px; 
     text-align: center;
-    left: 50%;
+    margin-left: 30%;
 }

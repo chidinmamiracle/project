@@ -1,26 +1,21 @@
 function operator(val) {
-  alert(val);
-  document.getElementById('result').value += val;
+  document.querySelector('evaluation').value += val;
 }
 
 function clearScreen() {
-  alert('i clicked clear');
-  document.getElementById('result').value = '';
+  document.getElementById('evaluation').value = '';
 }
 
 function number(val) {
-  alert(val);
-  document.getElementById('result').value += val;
+  document.getElementById('evaluation').value += val;
 }
 
 function equal() {
-  alert('i clicked equal');
-  let x = document.getElementById('result').value;
+  let x = document.getElementById('evaluation').value;
   let y = eval(x);
-  document.getElementById('result').value = y;
+  document.getElementById('evaluation').value = y;
 }
 
 function decimal() {
-  alert('i clicked decimal');
-  document.getElementById('result').value = '';
+  document.getElementById('evaluation').value = '';
 }
