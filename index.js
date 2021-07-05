@@ -1,5 +1,5 @@
 function operator(val) {
-  document.querySelector('evaluation').value += val;
+  document.getElementById('evaluation').value += val;
 }
 
 function clearScreen() {
